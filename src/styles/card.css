@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@200;300;400&family=Signika+Negative:wght@700&display=swap");
+
+
+.login {
+  width: 80vw;
+  background-color: #333640;
+  box-shadow: 2px 3px 45px 5px rgba(97, 97, 97, 0.41);
+  -webkit-box-shadow: 2px 3px 45px 5px rgba(97, 97, 97, 0.41);
+  -moz-box-shadow: 2px 3px 45px 5px rgba(97, 97, 97, 0.41);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 20px;
+  font-family: "Saira", sans-serif;
+  min-height: 90vh;
+  position: relative;
+}
+
+/* .login_button {
+  width: 80px;
+  height: 35px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: darkgreen;
+  align-self: flex-end;
+  position: relative;
+  left: 100px;
+  font-family: "Saira", sans-serif;
+  cursor: pointer;
+}
+.login_button :hover{
+  background:white;
+  color: darkgreen;
+  border: 2px solid darkgreen;
+}
+
+.username_password {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+
+}
+
+.loginUser {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: none !important;
+
+  border-bottom: 2px solid darkgreen;
+  background-color: transparent;
+}
+
+.username_password > span {
+  font-weight: 600;
+  min-width: 120px;
+  font-size: 0.9rem;
+  position: relative;
+
+  align-self: start;
+  color: grey;
+  top: 5px;
+}
+.username_password input:focus {
+  background-color: rgb(220, 235, 253);
+  outline: none;
+}
+
+.login_inputs {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login_logo {
+  transform: rotate(90deg);
+  width: 120px;
+  height: 150px;
+  margin-bottom: 20px;
+} */
+
+
+.connectMetaMask{
+   position: absolute;
+   bottom: 40px;
+   padding: 10px;
+   display: flex;
+   width: 250px !important;
+   align-items: center;
+   justify-content: center;
+   height: 45px;
+   font-size: 1.2rem;
+   border: none;
+   border-radius:10px;
+   color: #fff;
+   background: darkgreen;
+   font-family: "Saira", sans-serif;
+   left: 50%;
+   transform: translate(-50%);
+   cursor: pointer;
+}
+.connectMetaMask:hover{
+  background-color: white;
+  color: darkgreen;
+  border: 2px solid darkgreen;
+}
+
+.metaContainer{
+  display: flex;
+  flex-direction: row;
+  color:white;
+  line-height: 60px;
+  border-bottom: 1px solid grey;
+  font-weight: 501;
+}
+.meta_main_container{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.meta_header{
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  color: #A5A6A8;
+  font-size: 18px;
+  line-height: 40px;
+  border-bottom: 1px solid grey;
+  font-weight: 501;
+}
+
+.stream{
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.StreamId{
+  width: 10%;
+  
+  word-break: break-all;
+  text-align: start;
+  /* background-color: red; */
+}
+.Deposit{
+  width: 10%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: start;
+  /* background-color: black; */
+
+}
+
+input{
+  background-color: transparent;
+  border: 2px solid grey;
+  padding: 5px;
+  padding-bottom: 5px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  width: auto;
+}
+.Sender{
+  width: 25%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  text-align: start;
+/* background-color: blue; */
+}
+.Reciepent{
+  width: 25%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: start;
+
+  /* background-color: red; */
+}
+
+.adress{
+  color: white;
+
+}
+
+.tokenAddress{
+  width:15%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: start;
+  /* background-color: red; */
+}
+.Amount{
+  text-align: start;
+  width: 16%;
+  /* word-break: break-all; */
+  /* background-color: green; */
+}
+
+
+.nothingToShow{
+  font-size: 2rem;
+  color: white;
+  width: 100%;
+  /* background-color: red; */
+display: flex;
+align-items: center;
+justify-content: center;
+height: 300px;
+}
+/* 
+.loading{
+  font-size: 2rem;
+  color:white;
+  width: 100%;
+  margin: auto;
+} */
